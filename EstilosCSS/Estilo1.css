@@ -1,0 +1,35 @@
+p{
+    color: red;
+    width: 300px;
+    font-size: x-small;
+}
+h1 {
+    font-family: 'Unbounded', cursive;border: 4px solid blue;
+    padding: 30px 15px 25px 20px;
+    margin: 25px;
+    font-weight: bold;
+    color: green;
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+#otro {
+    color: aqua;
+    font-size: 30px;
+    border: 3px solid lawngreen;
+}
+
+.clase1 {
+    font-size: 45px;
+    color: brown;
+}
+
+.clase2 {
+    font-size: 15px;
+    color: blue;
+}
