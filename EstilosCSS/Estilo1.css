@@ -1,10 +1,15 @@
 * {
     box-sizing: border-box;
 }
+.header{
+    padding: 15px;
+    background-color: rgba(33, 105, 187, 0.842);
+}
 .menu{
     width: 25%;
     float: left;
     background-color: rgba(33, 105, 187, 0.842);
+    color:white;
 }
 
 img{
@@ -17,9 +22,6 @@ img{
     float: left;
     background-color: white;
     margin-left: 20px;
-}
-.header{
-
 }
 p{
     color: darkblue;
@@ -57,15 +59,29 @@ section {
     color: brown;
 }
 
-.clase2 {
+.claselinea {
+    text-align: center;
     font-size: 15px;
-    color: blue;
+    color: black;
 }
 
-body {
-    /*background-color: rgb(132, 211, 221);*/
-}
+/*body {
+    /*background-color: rgb(132, 211, 221);
+}*/
 
-#nomBoton {
+/*#nomBoton {
     color:blue
+}*/
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
