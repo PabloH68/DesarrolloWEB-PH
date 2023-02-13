@@ -1,10 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+.menu{
+    width: 25%;
+    float: left;
+    background-color: rgba(33, 105, 187, 0.842);
+}
+
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main{
+    max-width: 75%;
+    float: left;
+    background-color: white;
+    margin-left: 20px;
+}
+.header{
+
+}
 p{
-    color: red;
-    width: 300px;
-    font-size: x-small;
+    color: darkblue;
+    font-size:large;
+    font-weight: bold;
+}
+span{
+    color:black;
+    font-size:large;
+    font-weight: normal;
 }
 h1 {
-    font-family: 'Unbounded', cursive;border: 4px solid blue;
+    /*font-family: 'Unbounded', cursive;border: 4px solid blue;*/
     padding: 30px 15px 25px 20px;
     margin: 25px;
     font-weight: bold;
@@ -32,4 +60,12 @@ section {
 .clase2 {
     font-size: 15px;
     color: blue;
+}
+
+body {
+    /*background-color: rgb(132, 211, 221);*/
+}
+
+#nomBoton {
+    color:blue
 }
