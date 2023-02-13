@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("button").click(function(){
+    $(nuevoCV).click(function(){
         $.ajax({
         url: 'https://randomuser.me/api/',
         dataType: 'json',
@@ -43,6 +43,7 @@ $(document).ready(function(){
             document.getElementById('telef').innerHTML=phone;
             document.getElementById('cellp').innerHTML=mobile;
             document.getElementById('fotos').innerHTML="<img src="+foto+" alt="+nombre+" style='width:50%'>";
+            document.getElementById('mail').innerHTML="<a href='mailto:"+dirmail+"'>"+dirmail+"</a>";
 
         }
         });
