@@ -40,6 +40,7 @@ $(document).ready(function(){
             document.getElementById('fotos').innerHTML="<img src="+foto+" alt="+nombre+" style='width:50%'>";
             document.getElementById('mail').innerHTML="<a href='mailto:"+dirmail+"'>"+dirmail+"</a>";
             document.getElementById('email').innerHTML="<i class='far fa-envelope' style='font-size:24px'></i> <a href='mailto:"+dirmail+"'>"+dirmail+"</a>";
+            document.getElementById("guia").style.display='initial';
             document.getElementById("explabo").style.display='none';
             document.getElementById("estucurs").style.display='none';
             document.getElementById("infoco").style.display='none';
@@ -50,18 +51,21 @@ $(document).ready(function(){
     
 })
 $(experiencia).click(function(){
+    document.getElementById("guia").style.display='none';
     document.getElementById("explabo").style.display='initial';
     document.getElementById("estucurs").style.display='none';
     document.getElementById("infoco").style.display='none';
 })
 
 $(estudios).click(function(){
+    document.getElementById("guia").style.display='none';
     document.getElementById("explabo").style.display='none';
     document.getElementById("estucurs").style.display='initial';
     document.getElementById("infoco").style.display='none';
 })
 
 $(infocomp).click(function(){
+    document.getElementById("guia").style.display='none';
     document.getElementById("explabo").style.display='none';
     document.getElementById("estucurs").style.display='none';
     document.getElementById("infoco").style.display='initial';
