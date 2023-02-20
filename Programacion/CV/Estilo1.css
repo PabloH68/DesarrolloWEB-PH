@@ -83,7 +83,7 @@ h4{
 
 .button {
     background-color: rgb(46, 25, 167);
-    border: none;
+    border: none; /*1px solid rgb(46, 25, 167);*/
     color: white;
     text-align: center;
     text-decoration: none;
