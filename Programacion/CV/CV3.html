@@ -17,10 +17,10 @@
 </head>
 <body onload="nuevoCV.click()">
     <div class="header"> <!--Encabezado con botones-->
-        <button class="button" id="nuevoCV">Nuevo Postulante</button>
-        <button class="button" id="experiencia">Experiencia Laboral</button>
-        <button class="button" id="estudios">Estudios Cursados</button>
-        <button class="button" id="infocomp">Info Complementaria</button>
+        <button title="Consulte un nuevo postulante." class="button" id="nuevoCV">Nuevo Postulante</button>
+        <button title="Antecedentes laborales del postulante en pantalla." class="button" id="experiencia">Experiencia Laboral</button>
+        <button title="Estudios realizados por el postulante en pantalla." class="button" id="estudios">Estudios Cursados</button>
+        <button title="Información complementaria a los estudios y antecedentes." class="button" id="infocomp">Info Complementaria</button>
     </div>
 
     <div class="menu"> <!--Barra latertal con datos y adicional -->
@@ -28,7 +28,7 @@
         <hr style="width:60%;text-align: center">
         <p></p>
         <article id="datapers" class="perfilpro">
-            <h3>DATOS PERSONALES</h3>
+            <h3 title="Información personal completa.">DATOS PERSONALES</h3>
             <p id="nom"></p>
         </article>
         <p id="mail"></p>
@@ -53,12 +53,12 @@
     </div>
 
     <div class="main">  <!--Contenido informativo general-->
-        <p class="firstnom" id="primernom">Haga 'click' en un "Nuevo Postulante"</p>
-        <p class="lastname" id="apell"></p>
-        <p class="maindata" id="telefo"></p>
-        <p class="maindata" id="celu"></p>
-        <p class="maindata" id="email"></p>
-        <p class="maindata" id="dire"></p>
+        <p title="Nombre." class="firstnom" id="primernom">Haga 'click' en un "Nuevo Postulante"</p>
+        <p title="Apellido." class="lastname" id="apell"></p>
+        <p title="Teléfono fijo" class="maindata" id="telefo"></p>
+        <p title=" Teléfono celular" class="maindata" id="celu"></p>
+        <p title="Haga click para emviar correo electrónico." class="maindata" id="email"></p>
+        <p title="Dirección postal." class="maindata" id="dire"></p>
         <hr style="width:95%;text-align: center;color: black;">
 
         <div class="cargos" id="explabo">
@@ -109,8 +109,8 @@
             <p>° INFORMÁTICA: Amplios conocimientos en aplicaciones tipo Office, Sistemas Operativos de escritorio y servidores. Diseño, implementación y puesta en marcha de redes informáticas y todos sus servicios asociados (Ej. correo electrónico, acceso a internet, archivos, aplicaciones, impresión, etc.).</p>
         </div>
 
-        <div class="nota" id="guia">
-            <p>Puede cambiar el postulante en pantalla o acceder a los detalles del mismo utilizando el menú superior.</p>
+        <div title="Haga click en el menú superior" class="nota" id="guia">
+            <p>Para solicitar un nuevo postulante o acceder a los detalles del que está en pantalla, utilice el menú superior.</p>
             <p class="ops">"Nuevo postulante" - "Experiencia Laboral" - "Estudios Cursados" - "Info Complementaria"</p>
         </div>
     </div>
