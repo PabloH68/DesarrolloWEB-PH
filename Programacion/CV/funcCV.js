@@ -70,3 +70,31 @@ $(infocomp).click(function(){
     document.getElementById("estucurs").style.display='none';
     document.getElementById("infoco").style.display='initial';
 })
+
+document.getElementById("nuevoCV").onmouseover =function(){
+    document.getElementById("nuevoCV").style.fontWeight='bold';
+}
+document.getElementById("nuevoCV").onmouseout =function(){
+    document.getElementById("nuevoCV").style.fontWeight='normal';
+}
+
+document.getElementById("experiencia").onmouseover =function(){
+    document.getElementById("experiencia").style.fontWeight='bold';
+}
+document.getElementById("experiencia").onmouseout =function(){
+    document.getElementById("experiencia").style.fontWeight='normal';
+}
+
+document.getElementById("estudios").onmouseover =function(){
+    document.getElementById("estudios").style.fontWeight='bold';
+}
+document.getElementById("estudios").onmouseout =function(){
+    document.getElementById("estudios").style.fontWeight='normal';
+}
+
+document.getElementById("infocomp").onmouseover =function(){
+    document.getElementById("infocomp").style.fontWeight='bold';
+}
+document.getElementById("infocomp").onmouseout =function(){
+    document.getElementById("infocomp").style.fontWeight='normal';
+}
